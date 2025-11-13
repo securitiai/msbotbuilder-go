@@ -31,7 +31,7 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/infracloudio/msbotbuilder-go/connector/cache"
 	"github.com/infracloudio/msbotbuilder-go/schema"
-	"github.com/lestrrat-go/jwx/jwk"
+	"github.com/lestrrat-go/jwx/v2/jwk"
 )
 
 var metadataURL = "https://login.botframework.com/v1/.well-known/openidconfiguration"
