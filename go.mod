@@ -1,4 +1,4 @@
-module github.com/infracloudio/msbotbuilder-go
+module github.com/securitiai/msbotbuilder-go
 
 go 1.24.0
 
