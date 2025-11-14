@@ -25,9 +25,9 @@ import (
 	"net/url"
 	"path"
 
+	"github.com/infracloudio/msbotbuilder-go/connector/client"
+	"github.com/infracloudio/msbotbuilder-go/schema"
 	"github.com/pkg/errors"
-	"github.com/securitiai/msbotbuilder-go/connector/client"
-	"github.com/securitiai/msbotbuilder-go/schema"
 )
 
 // Response provides functionalities to send activity to the connector service.

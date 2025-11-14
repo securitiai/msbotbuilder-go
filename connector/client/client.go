@@ -31,10 +31,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/securitiai/msbotbuilder-go/connector/auth"
-	"github.com/securitiai/msbotbuilder-go/connector/cache"
-	"github.com/securitiai/msbotbuilder-go/schema"
-	"github.com/securitiai/msbotbuilder-go/schema/customerror"
+	"github.com/infracloudio/msbotbuilder-go/connector/auth"
+	"github.com/infracloudio/msbotbuilder-go/connector/cache"
+	"github.com/infracloudio/msbotbuilder-go/schema"
+	"github.com/infracloudio/msbotbuilder-go/schema/customerror"
 )
 
 // Client provides interface to send requests to the connector service.

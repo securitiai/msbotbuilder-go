@@ -23,7 +23,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/securitiai/msbotbuilder-go/schema"
+	"github.com/infracloudio/msbotbuilder-go/schema"
 )
 
 // Handler acts as the interface for the client program to define actions on various events from connector service.

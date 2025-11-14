@@ -20,7 +20,7 @@
 package activity
 
 import (
-	"github.com/securitiai/msbotbuilder-go/schema"
+	"github.com/infracloudio/msbotbuilder-go/schema"
 )
 
 // GetCoversationReference returns conversation reference from the activity
