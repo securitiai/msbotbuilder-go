@@ -21,7 +21,8 @@ package client
 
 import (
 	"errors"
-	"github.com/infracloudio/msbotbuilder-go/connector/auth"
+	"github.com/securitiai/msbotbuilder-go/connector/auth"
+	"net/http"
 	"net/url"
 )
 
@@ -29,6 +30,8 @@ import (
 type Config struct {
 	Credentials auth.CredentialProvider
 	AuthURL     url.URL
+	AuthClient  *http.Client
+	ReplyClient *http.Client
 }
 
 // NewClientConfig creates configuration for ConnectorClient.
